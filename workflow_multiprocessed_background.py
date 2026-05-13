@@ -32,11 +32,11 @@ output_prefix = './frip_simulation_change_cohesin/'
 # =================== WORKFLOW ===========================
 print("Starting workflow...")
 
-CTCF_left_positions = np.load('./data/different _cohesin_number_simulation_configs/ctcf_params/CTCF_left_positions.npy')
-CTCF_right_positions = np.load('./data/different _cohesin_number_simulation_configs/ctcf_params/CTCF_right_positions.npy')
-ctcf_loc_list = np.load('./data/different _cohesin_number_simulation_configs/ctcf_params/ctcf_loc_list.npy')
-ctcf_lifetime_list = np.load('./data/different _cohesin_number_simulation_configs/ctcf_params/ctcf_lifetime_list.npy')
-ctcf_offtime_list = np.load('./data/different _cohesin_number_simulation_configs/ctcf_params/ctcf_offtime_list.npy')
+CTCF_left_positions = np.load('./data/different_cohesin_number_simulation_configs/ctcf_params/CTCF_left_positions.npy')
+CTCF_right_positions = np.load('./data/different_cohesin_number_simulation_configs/ctcf_params/CTCF_right_positions.npy')
+ctcf_loc_list = np.load('./data/different_cohesin_number_simulation_configs/ctcf_params/ctcf_loc_list.npy')
+ctcf_lifetime_list = np.load('./data/different_cohesin_number_simulation_configs/ctcf_params/ctcf_lifetime_list.npy')
+ctcf_offtime_list = np.load('./data/different_cohesin_number_simulation_configs/ctcf_params/ctcf_offtime_list.npy')
 
 # Running 1D Simulation
 import multiprocessing as mp
